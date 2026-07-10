@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rai'z（ライズ）</title>
+    <style>
+        body {
+            margin: 0;
+            background: url("images/top/back.png") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        header img {
+            width: 60%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* 共通ブロックスタイル */
+        .live-block, .summary-block {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin: 30px auto;
+            width: 50%;
+            border-radius: 8px;
+            text-align: left;
+
+            border-left: 6px solid transparent;
+            background-image:
+                linear-gradient(to bottom, #fefefe, #c0c0c0 40%, #8c8c8c 60%, #e0e0e0);
+            background-repeat: no-repeat;
+            background-size: 6px 100%;
+            background-position: left top;
+            box-shadow: inset 1px 0 1px #fff;
+        }
+
+        .live-block p {
+            margin: 5px 0;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .summary-block p {
+            margin: 8px 0;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .live-img {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 6px;
+            border: 2px solid #ffffff;
+            display: block;
+        }
+
+        .youtube-link {
+            color: #ff3333;
+            text-decoration: underline;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow:
+                1px 1px 0 #fff,
+                -1px 1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+        }
+
+        .blue-link {
+            color: #4da3ff;
+            text-decoration: underline;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow:
+                1px 1px 0 #fff,
+                -1px 1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+        }
+
+        .contact-text {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/top/title.png" alt="Rai'z（ライズ）タイトル画像">
+    </header>
+
+    <!-- 2026年ブロック -->
+    <section class="live-block">
+        <h2 style="color:#ffcccc; font-size:26px; margin:0 0 10px 0;">2026年 ライブ情報</h2>
+
+        <p>2026.10.12</p>
+        <p>● J-POPオムニバス＆B'zコピバンSP</p>
+        <p style="margin-left:3em;">＠六本木 CLUB EDGE</p>
+
+        <img src="images/2026/2026.10.12.jpg" alt="2026.10.12 ライブ画像" class="live-img">
+    </section>
+
+    <!-- ★ 2027年ブロック（新規追加） -->
+    <section class="live-block">
+        <h2 style="color:#ffcccc; font-size:26px; margin:0 0 10px 0;">2027年 ライブ情報</h2>
+
+        <p>2027.03.21 出演予定</p>
+        <p style="margin-left:3em;">＠小岩オルフェウス</p>
+    </section>
+
+    <!-- 概要ブロック -->
+    <section class="summary-block">
+
+        <p>
+            <a href="https://www.youtube.com/@Raiz-Bz-Copy-Band"
+               target="_blank"
+               class="youtube-link">
+               ▶ Rai'z Official YouTube Channel
+            </a>
+        </p>
+
+        <p>
+            <a href="live-history.html"
+               target="_blank"
+               class="blue-link">
+               ▶ 過去のライブ動画はこちら
+            </a>
+        </p>
+
+        <p class="contact-text">
+            <a href="mailto:raiz.bzcopyband@gmail.com" class="contact-text">
+                お問い合わせ：raiz.bzcopyband@gmail.com
+            </a>
+        </p>
+
+    </section>
+
+</body>
+</html>
