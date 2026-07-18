@@ -14,7 +14,6 @@
             font-family: 'Noto Sans JP', sans-serif;
         }
 
-        /* タイトルロゴ（50%） */
         header img {
             width: 50%;
             height: auto;
@@ -22,7 +21,6 @@
             margin: 0 auto;
         }
 
-        /* 年度ブロック（トップページと統一） */
         .year-block {
             background-color: rgba(0, 0, 0, 0.8);
             padding: 20px;
@@ -52,7 +50,6 @@
             line-height: 1.6;
         }
 
-        /* ★ トップに戻るボタン（背景透過30%） */
         .back-button {
             display: inline-block;
             margin: 40px auto;
@@ -77,7 +74,6 @@
             text-align: center;
         }
 
-        /* 青＋白ふちリンク（統一デザイン） */
         .blue-link {
             color: #4da3ff;
             text-decoration: underline;
@@ -90,7 +86,6 @@
                 -1px -1px 0 #fff;
         }
 
-        /* ▼ スマホ表示改善（横幅を広げる） ▼ */
         @media (max-width: 768px) {
             .year-block {
                 width: 90%;
@@ -111,26 +106,22 @@
 
 <body>
 
-    <!-- タイトルロゴ（50%） -->
     <header>
         <img src="images/top/title.png" alt="Rai'z（ライズ）タイトル画像">
     </header>
 
-    <!-- 2026年ブロック -->
     <section class="year-block">
         <h2>2026年 ライブ情報</h2>
 
         <p>●2026.10.12 J-POPオムニバス＆B'zコピバンSP</p>
 
-        <!-- ★ URLが無い時は「動画準備中」表示、URLを入れたらそのままリンク化 -->
         <p>
-            <a href="" target="_blank" class="blue-link">
+            <a href="" class="blue-link">
                 ▶ 動画準備中
             </a>
         </p>
     </section>
 
-    <!-- トップ画面に戻るボタン -->
     <div class="back-area">
         <a href="index.html" class="back-button">▶ トップ画面に戻る</a>
     </div>
